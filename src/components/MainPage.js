@@ -21,7 +21,7 @@ const MainPage = () => {
     useEffect(()=>{
         const colors = new Values(color).all(10)
         setColorList(colors)
-    }, [])
+    })
     return (
         <div className='main_page_div'>
             <div className='search_area'>
