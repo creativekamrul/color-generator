@@ -3,7 +3,7 @@ import React from 'react'
 const SingleColor = ({colorData, index}) => {
     console.log(colorData)
     const newRgb = colorData.rgb.join(",")
-    const background = colorData.hex
+    const background = colorData.he
     return (
         <div className={index > 10 ? `single_color text_light`: `single_color`} style={{backgroundColor: `rgb(${newRgb})`}}>
             <h3># {background}</h3>
